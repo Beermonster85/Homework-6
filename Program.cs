@@ -19,3 +19,24 @@
 // {
 //     Console.WriteLine("Нет");
 // }
+
+
+// Задача №2
+// Написать программу которая преобразовывает десятичные числа в двоичные
+// 45 ----> 101101
+// 3 -----> 11
+// 2 -----> 10
+
+// Console.WriteLine("Введите первое число");
+// int num = Convert.ToInt32(Console.ReadLine());
+
+// string result = "";
+
+// while (num > 0)
+// {
+//     result = num % 2 + result;
+//     num = num / 2;
+// }
+
+
+// Console.WriteLine(result);
