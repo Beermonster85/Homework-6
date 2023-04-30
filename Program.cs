@@ -38,5 +38,24 @@
 //     num = num / 2;
 // }
 
-
 // Console.WriteLine(result);
+
+// Задача № 3
+// Не используя рекурсию выведите первые N чисел Фибоначи.
+// Первые 2 числа Фибоначи 0 и 1.
+// Если N = 5 ---> 01123
+
+// Console.WriteLine("Введите число");
+// int num = Convert.ToInt32(Console.ReadLine());
+// int[] fib = new int[num];
+// fib[0] = 0;
+// fib[1] = 1;
+// int i = 2;
+// Console.Write($"{fib[0]}  {fib[1]}");
+
+// while (i < num)
+// {
+//     fib[i] = fib[i - 1] + fib[i - 2];
+//     Console.Write($"{fib[i]}");
+//     i++;
+// }
