@@ -59,3 +59,19 @@
 //     Console.Write($"{fib[i]}");
 //     i++;
 // }
+
+// Задача №4 
+// Напишите программу которая перевернет одномерный массив (последний элеент будет на первом месте а первый на поледнем
+// [1 2 3 4 5] ---> [5 4 3 2 1]
+
+// int[] array = new int[5] { 1, 2, 3, 4, 5 };
+
+// int temp = 0;
+// for (int i = 0; i < array.Length / 2; i++)
+// {
+//     temp = array[i];
+//     array[i] = array[array.Length - 1 - i];
+//     array[array.Length - 1 - i] = temp;
+// }
+
+// Console.WriteLine(String.Join("", array));
